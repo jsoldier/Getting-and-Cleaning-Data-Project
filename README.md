@@ -26,7 +26,7 @@ The following are the steps taken by the script to produce the tidy data set
 - read the names of activities from "activity_labels.txt"
 - merge the activity names to the combinedData
 - read the names of measurements from "features.txt"
-- clean up the names of measurements so that they can be used as variable names in R (such as removing (), -)
+- clean up the names of measurements so that they can be used as variable names in R (such as removing "()", "-", etc)
 - rename some of the variable names so that it's more descriptive (such as renaming Acc to Accelerometer, Gyro to Gyroscope, etc)
 - attached the names of the variables to "combinedData"
 - subset combinedData to only include measurements on the mean and standard deviation for each type of measurements
